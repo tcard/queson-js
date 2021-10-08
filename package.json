@@ -1,0 +1,24 @@
+{
+  "name": "queson",
+  "version": "1.0.0",
+  "description": "QUESON is a URL-friendly alternative notation for JSON",
+  "main": "queson.ts",
+  "scripts": {
+    "prepare": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcard/queson-js.git"
+  },
+  "author": "Toni Cárdenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcard/queson-js/issues"
+  },
+  "homepage": "https://github.com/tcard/queson-js#readme",
+  "devDependencies": {
+    "esbuild": "^0.13.4",
+    "pegjs": "https://gitpkg.now.sh/pegjs/pegjs/packages/pegjs?b7b87ea8aeeaa1caf096e2da99fd95a971890ca1"
+  },
+  "types": "./queson.d.ts"
+}
